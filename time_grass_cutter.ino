@@ -33,7 +33,7 @@ void loop(){
   analogWrite(enA, 150);
   digitalWrite(in3, HIGH);
   digitalWrite(in4, LOW);
-  analogWrite(enB, 120);
+  analogWrite(enB, 150);
   Serial.println("straight");
   Serial.println(y);
   delay(y);
@@ -43,7 +43,7 @@ void loop(){
   analogWrite(enA, 150);
   digitalWrite(in3, HIGH);
   digitalWrite(in4, LOW);
-  analogWrite(enB, 120);
+  analogWrite(enB, 150);
   Serial.println("turning");
   delay(3140);
 
@@ -53,7 +53,7 @@ void loop(){
   analogWrite(enA, 150);
   digitalWrite(in3, HIGH);
   digitalWrite(in4, LOW);
-  analogWrite(enB, 120);
+  analogWrite(enB, 150);
   Serial.println("straight");
   Serial.println(x);
   delay(x);
@@ -64,7 +64,7 @@ void loop(){
   analogWrite(enA, 150);
   digitalWrite(in3, HIGH);
   digitalWrite(in4, LOW);
-  analogWrite(enB, 120);
+  analogWrite(enB, 150);
   Serial.println("turning");
   delay(3140);
 
@@ -74,7 +74,7 @@ void loop(){
   analogWrite(enA, 150);
   digitalWrite(in3, HIGH);
   digitalWrite(in4, LOW);
-  analogWrite(enB, 120);
+  analogWrite(enB, 150);
   Serial.println("straight");
   Serial.println(y);
   delay(y);
@@ -85,7 +85,7 @@ void loop(){
   analogWrite(enA, 150);
   digitalWrite(in3, HIGH);
   digitalWrite(in4, LOW);
-  analogWrite(enB, 120);
+  analogWrite(enB, 150);
   Serial.println("turning");
   delay(3140);
 
@@ -97,7 +97,7 @@ void loop(){
     analogWrite(enA, 150);
     digitalWrite(in3, HIGH);
     digitalWrite(in4, LOW);
-    analogWrite(enB, 120);
+    analogWrite(enB, 150);
     Serial.println("straight");
     Serial.println(x);
     delay(x);
@@ -108,7 +108,7 @@ void loop(){
     analogWrite(enA, 150);
     digitalWrite(in3, HIGH);
     digitalWrite(in4, LOW);
-    analogWrite(enB, 120);
+    analogWrite(enB, 150);
     Serial.println("turning");
     delay(3140);
 
@@ -118,7 +118,7 @@ void loop(){
     analogWrite(enA, 150);
     digitalWrite(in3, HIGH);
     digitalWrite(in4, LOW);
-    analogWrite(enB, 120);
+    analogWrite(enB, 150);
     Serial.println("straight");
     Serial.println(y);
     delay(y);
@@ -129,7 +129,7 @@ void loop(){
     analogWrite(enA, 150);
     digitalWrite(in3, HIGH);
     digitalWrite(in4, LOW);
-    analogWrite(enB, 120);
+    analogWrite(enB, 150);
     Serial.println("turning");
     delay(3140);
   }
@@ -138,5 +138,5 @@ void loop(){
   analogWrite(enA, 150);
   digitalWrite(in3, LOW);
   digitalWrite(in4, LOW);
-  analogWrite(enB, 120);
+  analogWrite(enB, 150);
   }
